@@ -15,6 +15,12 @@
 		7C9DC9B71C2D66EA00A463FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9DC9B51C2D66EA00A463FA /* LaunchScreen.storyboard */; };
 		7C9DC9C21C2D66EA00A463FA /* LocalizationProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DC9C11C2D66EA00A463FA /* LocalizationProjectTests.m */; };
 		7C9DC9CD1C2D66EA00A463FA /* LocalizationProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DC9CC1C2D66EA00A463FA /* LocalizationProjectUITests.m */; };
+		7C9DC9DD1C2D6D1E00A463FA /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DC9DC1C2D6D1E00A463FA /* Book.m */; };
+		7C9DC9E11C2D876900A463FA /* Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DC9E01C2D876900A463FA /* Formatter.m */; };
+		7C9DC9E61C2D8AF700A463FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9DC9E81C2D8AF700A463FA /* InfoPlist.strings */; };
+		7C9DC9EB1C2D8AF800A463FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9DC9ED1C2D8AF800A463FA /* Localizable.strings */; };
+		7C9DC9F01C2D8AF800A463FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9DC9F21C2D8AF800A463FA /* InfoPlist.strings */; };
+		7C9DC9F51C2D8AF900A463FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9DC9F71C2D8AF900A463FA /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		7C9DC9C81C2D66EA00A463FA /* LocalizationProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9DC9CC1C2D66EA00A463FA /* LocalizationProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationProjectUITests.m; sourceTree = "<group>"; };
 		7C9DC9CE1C2D66EA00A463FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C9DC9DB1C2D6D1E00A463FA /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		7C9DC9DC1C2D6D1E00A463FA /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		7C9DC9DF1C2D876900A463FA /* Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formatter.h; sourceTree = "<group>"; };
+		7C9DC9E01C2D876900A463FA /* Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formatter.m; sourceTree = "<group>"; };
+		7C9DC9E31C2D8A4100A463FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7C9DC9E71C2D8AF700A463FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C9DC9EC1C2D8AF800A463FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C9DC9F11C2D8AF800A463FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C9DC9F61C2D8AF900A463FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C9DC9FA1C2D8C4C00A463FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C9DC9FB1C2D8CE100A463FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,8 @@
 		7C9DC9A61C2D66EA00A463FA /* LocalizationProject */ = {
 			isa = PBXGroup;
 			children = (
+				7C9DC9DE1C2D857A00A463FA /* Formatter */,
+				7C9DC9DA1C2D6D0800A463FA /* BookModel */,
 				7C9DC9AA1C2D66EA00A463FA /* AppDelegate.h */,
 				7C9DC9AB1C2D66EA00A463FA /* AppDelegate.m */,
 				7C9DC9AD1C2D66EA00A463FA /* ViewController.h */,
@@ -117,6 +136,8 @@
 		7C9DC9A71C2D66EA00A463FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C9DC9F71C2D8AF900A463FA /* InfoPlist.strings */,
+				7C9DC9ED1C2D8AF800A463FA /* Localizable.strings */,
 				7C9DC9A81C2D66EA00A463FA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -125,6 +146,7 @@
 		7C9DC9C01C2D66EA00A463FA /* LocalizationProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				7C9DC9E81C2D8AF700A463FA /* InfoPlist.strings */,
 				7C9DC9C11C2D66EA00A463FA /* LocalizationProjectTests.m */,
 				7C9DC9C31C2D66EA00A463FA /* Info.plist */,
 			);
@@ -134,10 +156,29 @@
 		7C9DC9CB1C2D66EA00A463FA /* LocalizationProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
+				7C9DC9F21C2D8AF800A463FA /* InfoPlist.strings */,
 				7C9DC9CC1C2D66EA00A463FA /* LocalizationProjectUITests.m */,
 				7C9DC9CE1C2D66EA00A463FA /* Info.plist */,
 			);
 			path = LocalizationProjectUITests;
+			sourceTree = "<group>";
+		};
+		7C9DC9DA1C2D6D0800A463FA /* BookModel */ = {
+			isa = PBXGroup;
+			children = (
+				7C9DC9DB1C2D6D1E00A463FA /* Book.h */,
+				7C9DC9DC1C2D6D1E00A463FA /* Book.m */,
+			);
+			name = BookModel;
+			sourceTree = "<group>";
+		};
+		7C9DC9DE1C2D857A00A463FA /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				7C9DC9DF1C2D876900A463FA /* Formatter.h */,
+				7C9DC9E01C2D876900A463FA /* Formatter.m */,
+			);
+			name = Formatter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C9DC9B71C2D66EA00A463FA /* LaunchScreen.storyboard in Resources */,
+				7C9DC9EB1C2D8AF800A463FA /* Localizable.strings in Resources */,
 				7C9DC9B41C2D66EA00A463FA /* Assets.xcassets in Resources */,
 				7C9DC9B21C2D66EA00A463FA /* Main.storyboard in Resources */,
+				7C9DC9F51C2D8AF900A463FA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9DC9E61C2D8AF700A463FA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9DC9F01C2D8AF800A463FA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9DC9DD1C2D6D1E00A463FA /* Book.m in Sources */,
 				7C9DC9AF1C2D66EA00A463FA /* ViewController.m in Sources */,
 				7C9DC9AC1C2D66EA00A463FA /* AppDelegate.m in Sources */,
 				7C9DC9A91C2D66EA00A463FA /* main.m in Sources */,
+				7C9DC9E11C2D876900A463FA /* Formatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +359,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7C9DC9B11C2D66EA00A463FA /* Base */,
+				7C9DC9FA1C2D8C4C00A463FA /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -320,8 +368,42 @@
 			isa = PBXVariantGroup;
 			children = (
 				7C9DC9B61C2D66EA00A463FA /* Base */,
+				7C9DC9E31C2D8A4100A463FA /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7C9DC9E81C2D8AF700A463FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9DC9E71C2D8AF700A463FA /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C9DC9ED1C2D8AF800A463FA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9DC9EC1C2D8AF800A463FA /* ru */,
+				7C9DC9FB1C2D8CE100A463FA /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7C9DC9F21C2D8AF800A463FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9DC9F11C2D8AF800A463FA /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C9DC9F71C2D8AF900A463FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9DC9F61C2D8AF900A463FA /* ru */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

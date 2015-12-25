@@ -1,0 +1,13 @@
+
+/*
+ Localizable.strings
+ //  LocalizationProject
+ //
+ //  Created by Ильда  Залялов on 25.12.15.
+ //  Copyright © 2015 Ильда  Залялов. All rights reserved.
+ */
+
+"book.bookInformation" = "Shantaram is a 2003 novel by Gregory David Roberts, in which a convicted Australian bank robber and heroin addict who escaped from Pentridge Prison flees to India. The novel is commended by many for its vivid portrayal of tumultuous life in Bombay.The novel is reportedly influenced by real events in the life of the author, though some claims made by Roberts are contested by others involved in the story.";
+"book.bookImage" = "bookImage.en";
+"book.bookName.Shantaram" = "Shantaram";
+"book.bookAuthor.Shantaram" = "Gregory David";

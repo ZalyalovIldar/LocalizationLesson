@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="LocalizationProject/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body/>
+  </file>
+  <file original="LocalizationProject/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body>
+      <trans-unit id="5Zf-8O-CqV.text">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "5Zf-8O-CqV";</note>
+      </trans-unit>
+      <trans-unit id="D8Q-gE-Ghs.text">
+        <source>Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</source>
+        <target>Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</target>
+        <note>Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "D8Q-gE-Ghs";</note>
+      </trans-unit>
+      <trans-unit id="J60-91-Nhi.text">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "J60-91-Nhi";</note>
+      </trans-unit>
+      <trans-unit id="JQX-K6-VaP.text">
+        <source>Rating:</source>
+        <target>Рейтинг:</target>
+        <note>Class = "UILabel"; text = "Rating:"; ObjectID = "JQX-K6-VaP";</note>
+      </trans-unit>
+      <trans-unit id="Wsh-Gd-2OU.text">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "Wsh-Gd-2OU";</note>
+      </trans-unit>
+      <trans-unit id="aUd-dc-N5g.text">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "aUd-dc-N5g";</note>
+      </trans-unit>
+      <trans-unit id="fuh-be-9GF.text">
+        <source>Name:</source>
+        <target>Имя:</target>
+        <note>Class = "UILabel"; text = "Name:"; ObjectID = "fuh-be-9GF";</note>
+      </trans-unit>
+      <trans-unit id="gAV-eP-GyE.text">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "gAV-eP-GyE";</note>
+      </trans-unit>
+      <trans-unit id="oi4-Vh-Uo1.text">
+        <source>Author:</source>
+        <target>Aвтор:</target>
+        <note>Class = "UILabel"; text = "Author:"; ObjectID = "oi4-Vh-Uo1";</note>
+      </trans-unit>
+      <trans-unit id="vh1-mz-FSY.text">
+        <source>Date:</source>
+        <target>Дата:</target>
+        <note>Class = "UILabel"; text = "Date:"; ObjectID = "vh1-mz-FSY";</note>
+      </trans-unit>
+      <trans-unit id="w9O-ye-BJH.text">
+        <source>Edition(count):</source>
+        <target>Тираж(кол-во):</target>
+        <note>Class = "UILabel"; text = "Edition(count):"; ObjectID = "w9O-ye-BJH";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizationProject/Info.plist" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizationProject/Localizable.strings" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body>
+      <trans-unit id="book.author.Tolstoy">
+        <source>book.author.Tolstoy</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="book.bookAuthor">
+        <source>book.bookAuthor</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="book.bookDate">
+        <source>book.bookDate</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="book.bookEdition">
+        <source>book.bookEdition</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="book.bookImage">
+        <source>book.bookImage</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="book.bookName">
+        <source>book.bookName</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="book.bookName.Shantaram">
+        <source>book.bookName.Shantaram</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="book.bookRate">
+        <source>book.bookRate</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizationProjectTests/Info.plist" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizationProjectUITests/Info.plist" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
